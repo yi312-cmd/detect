@@ -1,0 +1,14 @@
+# NEU-DET Surface Defect Detection Dataset Configuration
+# 东北大学表面缺陷检测数据集配置
+path: C:\Users\刘嘉淯\Desktop\NEU-DET  # 数据集根目录（绝对路径）
+train: images/train  # 训练图片路径（相对path）
+val: images/val      # 验证图片路径（相对path）
+test: images/test    # 测试图片路径（可选，相对path）
+
+# 类别数量和名称（6类表面缺陷）
+nc: 6
+names: ['crazing', 'inclusion', 'patches', 'pitted_surface', 'rolled-in_scale', 'scratches']
+
+# 任务类型
+task: detect  # 检测任务（detect）或分割任务（segment）
+
